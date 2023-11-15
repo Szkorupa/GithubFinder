@@ -64,9 +64,16 @@ button{
     border-radius: 30rem;
 }
 
-.result{
+.Results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result{
+    margin-top: 100px;
     width: 600px;
-    height: 100px;
+    height: 300px;
     padding: 60px 35px 35px 35px;
     border-radius: 20px;
     background-color: #FFFFFF;
@@ -76,8 +83,18 @@ button{
 
 h2{
     color: white;
+    font-family: "Arial Black";
 }
 
 img {
     width: 64px;
+}
+
+p{
+    color: white;
+    font-family: "Arial Black";
+}
+
+a{
+    color: #6153CC;
 }

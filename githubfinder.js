@@ -11,11 +11,13 @@ async function searchGithub() {
 
         if (response.ok) {
             resultDiv.innerHTML = `
-                <h2>${data.login}</h2>
                 <img src="${data.avatar_url}" alt="Profile picture">
+                <h2>Username: ${data.login}</h2>
                 <p>${data.bio || 'No bio available'}</p>
                 <p>Followers: ${data.followers}</p>
                 <p>Following: ${data.following}</p>
+                <p>Public Repos: ${data.public_repos}</p>
+                <p>Profile Link: <a href="${data.html_url}" target="_blank">${data.html_url}</a></p>
             `;
         } else {
             resultDiv.innerHTML = `<p>User not found</p>`;
