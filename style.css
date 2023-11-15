@@ -35,19 +35,21 @@ main{
     height: 100px;
     padding: 60px 35px 35px 35px;
     border-radius: 20px;
-    background-color: #FFFFFF;
+    background-color: #333333;
     font-family: "Arial Black";
     font-weight: 700;
 }
 
 input{
+    color: white;
     border: 0;
     outline: 0;
+    background-color: #333333;
     width: 25rem;
     font-size: 18px;
     letter-spacing: .5px;
     padding: 20px 10px 20px 5px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     transition: 0.2s;
 }
 
@@ -76,14 +78,14 @@ button{
     height: 300px;
     padding: 60px 35px 35px 35px;
     border-radius: 20px;
-    background-color: #FFFFFF;
-    font-family: "Arial Black";
+    background-color: #333333;
+    font-family: "Arial";
     font-weight: 700;
 }
 
 h2{
     color: white;
-    font-family: "Arial Black";
+    font-family: "Arial";
 }
 
 img {
@@ -92,9 +94,14 @@ img {
 
 p{
     color: white;
-    font-family: "Arial Black";
+    font-family: "Arial";
 }
 
 a{
     color: #6153CC;
+}
+
+h3{
+    color: white;
+    text-align: center;
 }

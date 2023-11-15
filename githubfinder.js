@@ -20,7 +20,7 @@ async function searchGithub() {
                 <p>Profile Link: <a href="${data.html_url}" target="_blank">${data.html_url}</a></p>
             `;
         } else {
-            resultDiv.innerHTML = `<p>User not found</p>`;
+            resultDiv.innerHTML = `<h3>User not found</h3>`;
         }
     } catch (error) {
         console.error('Error fetching data from GitHub API:', error);
